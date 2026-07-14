@@ -1,0 +1,7 @@
+.hero{
+    position: relative;
+    min-width: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
