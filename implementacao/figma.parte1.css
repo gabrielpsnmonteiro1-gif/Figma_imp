@@ -1,0 +1,53 @@
+.navbar-gradiente{
+    background:
+        radial-gradient(circle at left,
+            rgba(13,110,253,.35),
+            transparent 30%),
+
+        radial-gradient(circle at right,
+            rgba(13,110,253,.35),
+            transparent 30%),
+
+        linear-gradient(
+            90deg,
+            #000000,
+            #050b18,
+            #000000
+        );
+}
+
+
+.form-control{
+    background-color: #111;
+    color: white;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    background-color: #111;
+    color: white;
+    border-color: #0d6efd;
+    box-shadow: 0 0 10px rgba(13,110,253,.6);
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.btn-primary{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #0056d6;
+    border-color: #0056d6;
+    box-shadow: 0 0 15px rgba(13,110,253,.7);
+}
+
+.nav-item:hover{
+    border-color: #0056d6;
+}

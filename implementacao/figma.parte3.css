@@ -1,0 +1,20 @@
+.gallery-img{
+    border: 3px solid white;
+    border-radius: 15px;
+    transition: 3s;
+    box-shadow:  0 10px 25px rgba(0, 0, 0, .4);
+}
+
+.gallery-img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(13, 110, 253, .5);
+}
+
+.progress{
+    background: rgb(153, 153, 155);
+    border-radius: 20px;
+}
+
+.progress-bar{
+    border-radius: 20px;
+}
